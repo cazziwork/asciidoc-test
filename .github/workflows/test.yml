@@ -12,5 +12,4 @@ jobs:
         src: .
         dest: target
     - name: check
-      run: |
-        ls -la target
+      run: ls -la target
