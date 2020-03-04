@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: mougenko/asciidoc-to-html@646db699a4fbea809bd498035ab6a4d8a16bc334
       with:
-        src: .
-        dest: .
+        src: src
+        dest: dest
     - name: check
       run: ls -la
