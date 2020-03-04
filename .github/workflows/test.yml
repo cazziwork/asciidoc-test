@@ -10,7 +10,7 @@ jobs:
     - uses: mougenko/asciidoc-to-html@8af31f22e90187ac7724b3529ae3f1044c6fab55
       with:
         src: .
-        dest: .
+        dest: target
     - name: check
       run: |
         ls -la
