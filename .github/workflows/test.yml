@@ -12,4 +12,6 @@ jobs:
         src: src
         dest: dest
     - name: check
-      run: ls -la
+      run: |
+        ls -la src
+        ls -la dest
