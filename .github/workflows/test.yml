@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: mougenko/asciidoc-to-html@646db699a4fbea809bd498035ab6a4d8a16bc334
+    - uses: mougenko/asciidoc-to-html@8af31f22e90187ac7724b3529ae3f1044c6fab55
       with:
         src: src
         dest: dest
