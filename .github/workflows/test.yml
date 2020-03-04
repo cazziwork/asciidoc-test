@@ -14,3 +14,4 @@ jobs:
     - name: check
       run: |
         ls -la target
+        cat target/index.html
